@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pagina principale</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            iframe {
+                border: double 3px red;
+                display: block; /* causa  la visione verticale*/
+            }
+            
+            img.imgOpache {
+                max-height: 350px;
+                max-width: 450px;
+                opacity: .5;
+                display: block;
+            }
+
+            img.imgOpache:hover {
+                opacity: 1;   
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h1>Pagina principale</h1>
+
+        <a  href="gennaio2020.html" target="finestraInterna">Gen
+            <img />
+        </a>
+        <a  href="febbraio2020.html" target="finestraInterna">Feb</a>
+        <a  href="marzo2020.html" target="finestraInterna">Mar</a>
+
+
+        <iframe src="gennaio2020.html" name="finestraInterna"
+                style="width: 400px ; height: 300px">
+        </iframe>
+
+        <img src="immagini/natale.jpeg" alt="" class ="imgOpache" title="immagine di Natale">
+        <img src="immagini/albero.jpeg" alt="" class ="imgOpache" title="immagine di Natale">
+      
+        <img src="immagini/index.jpeg" alt="" title="immagine di Natale">
+
+        <img src="immagini/natale.jpeg" alt="" title="immagine di Natale"
+             height="300" width="200">
+
+    </body>
+</html>
